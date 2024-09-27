@@ -1,0 +1,60 @@
+html {
+  background: purple;
+}
+
+body {
+  background: white;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+
+#div-container {
+  border: 2px solid green;
+  background: lightgreen;
+  text-align: center;
+}
+
+#span1 {
+  text-decoration: underline;
+  color: blue;
+}
+#span3 {
+  border: 1px black solid;
+  border-radius: 5px;
+}
+#Span2 {
+  border: 2px blue solid;
+  background: lightblue;
+  margin-top: 20px;
+}
+#input-container {
+  border: 2px solid red;
+  background: pink;
+  margin-top: 20px;
+  text-align: center;
+}
+
+input {
+  width: 100px;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 16px;
+  background: white;
+  transition: background 1s;
+}
+input:hover {
+  background: black;
+  color: white;
+  transition: background 1s;
+}
+#Button {
+  color: red;
+  background: blue;
+}
+#Button:hover {
+  font-weight: bold;
+}
+
+/* Group togther the Span section in a div. Give it a blue border and lightblue background. Center the text*/
+/* Target the words om the div section: "group elements togther". Give them a 1px solid black border with a 5px border radius*/
